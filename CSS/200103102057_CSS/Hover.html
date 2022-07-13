@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Hover Effect</title>
+
+        <style>
+            #mainul li ul li {display: none;}
+            #MainUL li:hover ul li{display:block;}
+			#MainUL li:hover ul li ul li{display:none;}
+			#MainUL li ul li:hover ul li{display:block;}
+			#MainUL li ul li:hover ul li ul li{display:none;}
+			#MainUL li ul li ul li:hover ul li{display:block;}
+        </style>
+    </head>
+
+
+    
+    <body>  
+        <ul id="mainul">  
+        <li>Google
+            <ul>
+                <li>Gmail
+                    <ul>
+                        <li>sign up</li>
+                        <li>sign in
+                            <ul>
+                                <li>Sign in as user</li>
+                                <li>sign in as asmin</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Youtube</li>
+                <li>gdrive</li>
+                <li>gmap</li>
+            </ul>
+        </li>
+        <li>Facebook</li>
+        <li>Amazon</li>
+        <li>Microsoft</li>
+        </ul>
+    </body>
+</html>
